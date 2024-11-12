@@ -100,7 +100,7 @@ log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
 
 WEBUI_NAME = os.environ.get("WEBUI_NAME", "Saleman.Ai")
-if WEBUI_NAME != "Open WebUI":
+if WEBUI_NAME != "Saleman.Ai":
     WEBUI_NAME += " (Saleman.Ai)"
 
 WEBUI_URL = os.environ.get("WEBUI_URL", "http://localhost:3000")
