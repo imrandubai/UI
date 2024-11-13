@@ -103,9 +103,9 @@ WEBUI_NAME = os.environ.get("WEBUI_NAME", "Saleman.Ai")
 if WEBUI_NAME != "Saleman.Ai":
     WEBUI_NAME += " (Saleman.Ai)"
 
-WEBUI_URL = os.environ.get("WEBUI_URL", "http://localhost:3000")
+WEBUI_URL = os.environ.get("WEBUI_URL", "https://chat.saleman.ai")
 
-WEBUI_FAVICON_URL = "https://playground.saleman.ai/static/splash.png"
+WEBUI_FAVICON_URL = "https://chat.saleman.ai/favicon.png"
 
 
 ####################################
