@@ -2,7 +2,7 @@
 <ShortName>Saleman.Ai</ShortName>
 <Description>Saleman.Ai</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Image width="16" height="16" type="image/x-icon">http://localhost:5137/favicon.png</Image>
-<Url type="text/html" method="get" template="http://localhost:5137/?q={searchTerms}"/>
-<moz:SearchForm>http://localhost:5137</moz:SearchForm>
+<Image width="16" height="16" type="image/x-icon">https://chat.saleman.ai/favicon.png</Image>
+<Url type="text/html" method="get" template="https://chat.saleman.ai/?q={searchTerms}"/>
+<moz:SearchForm>https://chat.saleman.ai</moz:SearchForm>
 </OpenSearchDescription>
