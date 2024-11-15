@@ -494,7 +494,7 @@ else:
 # CUSTOM_NAME
 ####################################
 
-CUSTOM_NAME = os.environ.get("CUSTOM_NAME", "")
+CUSTOM_NAME = os.environ.get("Saleman.Ai", "")
 
 if CUSTOM_NAME:
     try:
@@ -527,7 +527,7 @@ if CUSTOM_NAME:
                         r.raw.decode_content = True
                         shutil.copyfileobj(r.raw, f)
 
-            WEBUI_NAME = data["name"]
+            WEBUI_NAME = data["Saleman.Ai"]
     except Exception as e:
         log.exception(e)
         pass
