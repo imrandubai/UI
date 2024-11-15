@@ -99,7 +99,7 @@ for source in log_sources:
 log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Saleman.Ai")
+WEBUI_NAME = os.environ.get("Saleman.Ai", "Saleman.Ai")
 if WEBUI_NAME != "Saleman.Ai":
     WEBUI_NAME += " (Saleman.Ai)"
 
